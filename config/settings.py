@@ -16,12 +16,12 @@ PROJECT_ROOT = Path(__file__).parent.parent
 # =============================================================================
 
 # DeepSeek API配置
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-e167e248b2524f009a10b3685eea5229")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 DEEPSEEK_MODEL = "deepseek-chat"
 
 # 阿里云百炼Embedding配置
-ALIBABA_API_KEY = os.environ.get("ALIBABA_API_KEY", "sk-a25386e1ad13445280fdbf0beca25079")
+ALIBABA_API_KEY = os.environ.get("ALIBABA_API_KEY", "")
 EMBEDDING_MODEL = "text-embedding-v4"
 
 # 阿里云百炼语音合成(TTS)配置
